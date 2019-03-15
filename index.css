@@ -1,0 +1,95 @@
+body{
+	margin: 0;
+	background-color: hsl(218, 28%, 13%);
+	color: white;
+	font-size: 14px;
+	font-family: open-sans;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
+nav ul{
+	display: flex;
+	flex-direction: row;
+}
+li{
+	list-style:none;
+	text-decoration: none;
+	padding: 0 20px 20px 20px;
+
+}
+img[alt="Logo"]{
+	max-height: 55px;
+	margin-bottom: 10px;
+}
+input{
+	padding: 10px;
+	margin: 0 10px;
+	border-radius: 25px;
+	max-width: 70%;
+	border: none;
+}
+button{
+	background-color: hsl(198, 60%, 50%);
+	padding: 10px;
+	color: white;
+	border-radius: 25px;
+	max-width: 20%;
+	border: none;
+}
+footer{
+	padding-top: 30px;
+	background-color: hsl(216, 53%, 9%);
+}
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 90%;
+	margin: auto;
+	text-align: center;
+}
+.container1{
+	max-width: 60%;
+	padding: 20px;
+}
+.container2{
+	max-width: 80%;
+	margin: auto;
+	padding-top: 35px;
+	background-color: hsl(219, 30%, 18%);
+	height:200px;
+	text-align: center;
+}
+.features{
+	width: 350px;
+	margin: 30px;
+}
+
+.testimony{
+	flex-direction: column;
+	width: 300px;
+	height: 150px;
+	margin: 20px;
+	padding: 10px;
+	background-color: hsl(219, 30%, 18%)
+}
+.names{
+	flex-direction: row;
+}
+.space{
+	justify-content: space-between;
+}
+
+#lokatie, #tel{
+	max-width: 300px;
+}
+
+@media screen and (max-width: 600px) {
+  button,input {
+    max-width: 90%;
+  }
+}
